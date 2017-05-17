@@ -15,3 +15,13 @@ git status
 #diff
 git diff xxx
 
+# git reset
+git log
+git log --pretty=oneline
+git reset --hard HEAD^
+git reset --hard HEAD~5
+
+# git goto
+git reflog
+git reset --hard 18a691c
+
