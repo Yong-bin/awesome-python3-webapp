@@ -12,3 +12,6 @@ git commit -m "xxx,,xxx"
 #status
 git status
 
+#diff
+git diff xxx
+
