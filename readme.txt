@@ -25,3 +25,9 @@ git reset --hard HEAD~5
 git reflog
 git reset --hard 18a691c
 
+# git and github
+git remote add origin git@github.com:Yong-bin/awesome-python3-webapp.git
+git push -u origin master
+git push origin master
+
+git clone git@github.com:Yong-bin/awesome-python3-webapp.git
