@@ -33,3 +33,12 @@ git push origin master
 git clone git@github.com:Yong-bin/awesome-python3-webapp.git
 
 add by yongbin
+
+# add git branch step
+git branch : check branch
+git branch <name> : create branch
+git checkout <name> : switch branch
+git checkout -b <name> :create and switch branch
+git merge <name> : merge to current branch
+git branch -d <name> : delete branch
+# add by yongbin
