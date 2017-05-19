@@ -42,3 +42,18 @@ git checkout -b <name> :create and switch branch
 git merge <name> : merge to current branch
 git branch -d <name> : delete branch
 # add by yongbin
+
+# add git conflict
+git chechout -b feature1
+giet add readme.txt
+git commit -m "AND simple"
+git checkout master
+get add readme.txt
+git commit -m "& simple"
+git merge feature1
+git status
+git add readme.txt
+git commit -m "conflict fixed"
+git log --graph --pretty=oneling --abbrv-commit
+git branch -d feature1
+# add by yongbin
