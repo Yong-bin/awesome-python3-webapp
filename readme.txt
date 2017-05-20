@@ -79,3 +79,10 @@ git stash list
 git stash pop
 git stash apply stash@{0}
 # add by yongbin
+
+# add some people cowork
+git remote
+git remote -v
+git push origin master
+git push origin dev
+# add by yongbin
