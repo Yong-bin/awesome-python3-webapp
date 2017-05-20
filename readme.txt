@@ -62,3 +62,20 @@ git branch -d feature1
 hah
 
 # add by yongbin
+
+# add git stash
+git status
+git stash
+git checkout master
+git checkout -b issue-101
+git add readme.txt
+git commit -m "fix bug 101"
+git checkout master
+git merge --no-ff -m "merged buf fix 101" issue-101
+git branch -d issue-101
+git checkout dev
+git status
+git stash list
+git stash pop
+git stash apply stash@{0}
+# add by yongbin
