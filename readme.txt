@@ -86,3 +86,19 @@ git remote -v
 git push origin master
 git push origin dev
 # add by yongbin
+
+# add some people cowork
+git clone git@github.com:Yong-bin/awesome-python3-webapp.git
+git branch
+git checkout -b dev origin/dev
+git commit -m "add /user/bin/env"
+git push origin dev
+git add hello.py
+git commit -m "add coding : utf-8"
+git push origin dev
+git pull
+git branch --set-upstream dev origin/dev
+git pull
+git commit -m "merge & fix hello.py"
+git push origiin dev
+# add by yongbin
