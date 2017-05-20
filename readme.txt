@@ -102,3 +102,8 @@ git pull
 git commit -m "merge & fix hello.py"
 git push origiin dev
 # add by yongbin
+
+# git special
+git config --global color.ui true
+# git config --global user.name user.email
+# add by yongbin
